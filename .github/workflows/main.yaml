@@ -94,7 +94,6 @@ jobs:
           { py: "3.11", weaviate: $OLD_WEAVIATE_VERSION},
           { py: "3.12", weaviate: $NEW_WEAVIATE_VERSION}
         ]
-
         optional_dependencies: [false]
     steps:
       - uses: actions/checkout@v3
